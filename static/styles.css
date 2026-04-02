@@ -1,0 +1,25 @@
+.container-fondo {
+
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+ 
+}
+
+.login-container {
+
+    padding: 30px;
+    border-radius: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+    
+.copyright {
+    position: fixed;
+    bottom: 0px;
+}
