@@ -52,11 +52,10 @@ MIDDLEWARE = [
 
 ROOT_URLCONF = 'sistemaKiosco.urls'
 
-
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates'],  # <--- apunta a tu carpeta de templates
+        'DIRS': [BASE_DIR / 'templates'], 
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
