@@ -12,13 +12,15 @@ ALLOWED_HOSTS = []
 
 
 INSTALLED_APPS = [
+    'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
+    'django.contrib.messages',
     'django.contrib.staticfiles',
-    'accounts',
-    'users',
-    "django_browser_reload",
+    'accounts',  
+    'users',     
+    "django_browser_reload",  
 ]
 
 MIDDLEWARE = [
