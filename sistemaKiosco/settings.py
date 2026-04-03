@@ -20,7 +20,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'accounts',  
     'users',     
-    "django_browser_reload",  
+    'django_browser_reload',
+    'products',  
 ]
 
 MIDDLEWARE = [
